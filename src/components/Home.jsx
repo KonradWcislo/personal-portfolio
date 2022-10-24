@@ -1,7 +1,6 @@
 import React from "react"
 import { HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "react-scroll"
-import PNG from "../assets/PNG.png"
 const Home = () => {
 	return (
 		<div name='home' className='w-full h-screen bg-[#232527]'>
@@ -17,9 +16,14 @@ const Home = () => {
 					<span className='hover:text-[#FE2C55]'>a</span>
 					<span className='hover:text-[#FE2C55]'>d </span>
 					<span className='hover:text-[#FE2C55]'>W</span>
+					<span className='hover:text-[#FE2C55]'>c</span>
+					<span className='hover:text-[#FE2C55]'>i</span>
+					<span className='hover:text-[#FE2C55]'>s</span>
+					<span className='hover:text-[#FE2C55]'>ł</span>
+					<span className='hover:text-[#FE2C55]'>o</span>
 				</h1>
 				<h2 className='z-10 text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-					I want to be Junior Developer.
+					I'm Junior Developer.
 				</h2>
 				<p className='z-10 text-[#b3b3b4] py-4 max-w-[700px]'>
 					I'm learning JavaScript, React, TailwindCss. Now i working by new
@@ -36,11 +40,6 @@ const Home = () => {
 						</button>
 					</Link>
 				</div>
-				<img
-					className='absolute opacity-60 h-screen ml-96'
-					src={PNG}
-					alt='Konrad fotography.'
-				/>
 			</div>
 		</div>
 	)
