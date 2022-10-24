@@ -9,23 +9,23 @@ const Home = () => {
 			<div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 				<p className='text-[#ffffffd0]'>Hi, my name is </p>
 				<h1 className='text-4xl sm:text-7xl font-bold text-[#25F4EE]'>
-					<span className='hover:text-[#FE2C55]'>K</span>
-					<span className='hover:text-[#FE2C55]'>o</span>
-					<span className='hover:text-[#FE2C55]'>n</span>
-					<span className='hover:text-[#FE2C55]'>r</span>
-					<span className='hover:text-[#FE2C55]'>a</span>
-					<span className='hover:text-[#FE2C55]'>d </span>
-					<span className='hover:text-[#FE2C55]'>W</span>
-					<span className='hover:text-[#FE2C55]'>c</span>
-					<span className='hover:text-[#FE2C55]'>i</span>
-					<span className='hover:text-[#FE2C55]'>s</span>
-					<span className='hover:text-[#FE2C55]'>ł</span>
-					<span className='hover:text-[#FE2C55]'>o</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>K</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>o</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>n</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>r</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>a</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>d </span>
+					<span className='hover:text-[#FE2C55] cursor-default'>W</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>c</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>i</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>s</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>ł</span>
+					<span className='hover:text-[#FE2C55] cursor-default'>o</span>
 				</h1>
-				<h2 className='z-10 text-4xl sm:text-7xl font-bold text-[#8892b0]'>
+				<h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
 					I'm Junior Developer.
 				</h2>
-				<p className='z-10 text-[#b3b3b4] py-4 max-w-[700px]'>
+				<p className='text-[#b3b3b4] py-4 max-w-[700px]'>
 					I'm learning JavaScript, React, TailwindCss. Now i working by new
 					projects to my portfolio in GitHub. If you want contact with me, send
 					my a message.
