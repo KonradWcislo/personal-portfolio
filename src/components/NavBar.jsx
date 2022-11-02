@@ -6,9 +6,9 @@ import {
 	FaGithub,
 	FaFacebook,
 	FaInstagram,
-	FaSkype,
 } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
+import { AiOutlinePhone } from "react-icons/ai"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 
 import { Link } from "react-scroll"
@@ -110,9 +110,9 @@ export const NavBar = () => {
 					<li className='w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#009EDC]'>
 						<a
 							className='flex justify-between items-center w-full text-gray-300'
-							href='skype:690992000'>
+							href='tel:690992000'>
 							690 992 000
-							<FaSkype size={30} />
+							<AiOutlinePhone size={30} />
 						</a>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BB001B]'>

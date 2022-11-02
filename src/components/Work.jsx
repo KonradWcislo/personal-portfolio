@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react"
+import BestShop from "../assets/projects/Best-shop.png"
 import OddamZaDarmo from "../assets/projects/OddamZaDarmo.png"
 import weatherApp from "../assets/projects/weatherApp.png"
 import toDoApp from "../assets/projects/toDoApp.png"
@@ -17,8 +18,31 @@ const Work = () => {
 				</div>
 
 				{/* Container */}
-				<div className='grid sm:grid-cols-1 md:grid-cols-2 gap-10'>
+				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
 					{/* Grid Item */}
+					<div
+						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						style={{ backgroundImage: `url(${BestShop})` }}>
+						<div>
+							{/* Hover Effects */}
+							<div className='opacity-0 group-hover:opacity-100'>
+								<span className='text-2xl font-bold tex-white tracking-wider'></span>
+								<div className='pt-8 text-center'>
+									<a  href='https://best-shop-myproject.netlify.app/' target="_blank" rel="noreferrer">
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Demo
+										</button>
+									</a>
+									<a href='https://github.com/KonradWcislo/BestShop' target="_blank" rel="noreferrer">
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Code
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 					<div
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 						style={{ backgroundImage: `url(${OddamZaDarmo})` }}>
