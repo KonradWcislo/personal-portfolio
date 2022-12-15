@@ -5,6 +5,7 @@ import OddamZaDarmo from "../assets/projects/OddamZaDarmo.png"
 import weatherApp from "../assets/projects/weatherApp.png"
 import toDoApp from "../assets/projects/toDoApp.png"
 import cryptoApp from "../assets/projects/cryptoApp.png"
+import timer from "../assets/projects/timer.png"
 
 const Work = () => {
 	return (
@@ -123,6 +124,28 @@ const Work = () => {
 										</button>
 									</a>{" "}
 									<a href='https://github.com/KonradWcislo/cryptocurrency-search-engine' target="_blank" rel="noreferrer">
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Code
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						style={{ backgroundImage: `url(${timer})` }}>
+						<div>
+							{/* Hover Effects */}
+							<div className='opacity-0 group-hover:opacity-100'>
+								<span className='text-2xl font-bold tex-white tracking-wider'></span>
+								<div className='pt-8 text-center'>
+									<a href='https://timeerr.netlify.app/' target="_blank" rel="noreferrer">
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Demo
+										</button>
+									</a>{" "}
+									<a href='https://github.com/KonradWcislo/Timer' target="_blank" rel="noreferrer">
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
