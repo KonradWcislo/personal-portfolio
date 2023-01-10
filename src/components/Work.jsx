@@ -6,6 +6,7 @@ import weatherApp from "../assets/projects/weatherApp.png"
 import toDoApp from "../assets/projects/toDoApp.png"
 import cryptoApp from "../assets/projects/cryptoApp.png"
 import timer from "../assets/projects/timer.png"
+import bmw from "../assets/projects/bmw-website.png"
 
 const Work = () => {
 	return (
@@ -23,18 +24,24 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-						style={{ backgroundImage: `url(${BestShop})` }}>
+						style={{ backgroundImage: `url(${bmw})` }}>
 						<div>
 							{/* Hover Effects */}
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a  href='https://best-shop-myproject.netlify.app/' target="_blank" rel="noreferrer">
+									<a
+										href='https://bmw-website.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>
-									<a href='https://github.com/KonradWcislo/BestShop' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/bmw-website'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
@@ -43,7 +50,34 @@ const Work = () => {
 							</div>
 						</div>
 					</div>
-					
+					<div
+						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						style={{ backgroundImage: `url(${BestShop})` }}>
+						<div>
+							{/* Hover Effects */}
+							<div className='opacity-0 group-hover:opacity-100'>
+								<span className='text-2xl font-bold tex-white tracking-wider'></span>
+								<div className='pt-8 text-center'>
+									<a
+										href='https://best-shop-myproject.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Demo
+										</button>
+									</a>
+									<a
+										href='https://github.com/KonradWcislo/BestShop'
+										target='_blank'
+										rel='noreferrer'>
+										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+											Code
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 						style={{ backgroundImage: `url(${OddamZaDarmo})` }}>
@@ -52,12 +86,18 @@ const Work = () => {
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a  href='https://oddam-za-darmo.netlify.app/' target="_blank" rel="noreferrer">
+									<a
+										href='https://oddam-za-darmo.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>
-									<a href='https://github.com/KonradWcislo/oddam-za-darmo' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/oddam-za-darmo'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
@@ -74,12 +114,18 @@ const Work = () => {
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a href='https://weather-app-konradwcislo-github.netlify.app/' target="_blank" rel="noreferrer">
+									<a
+										href='https://weather-app-konradwcislo-github.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>{" "}
-									<a href='https://github.com/KonradWcislo/weather-app' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/weather-app'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
@@ -96,12 +142,15 @@ const Work = () => {
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a href='/' target="_blank" rel="noreferrer">
+									<a href='/' target='_blank' rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>{" "}
-									<a href='https://github.com/KonradWcislo/to-do-app' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/to-do-app'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
@@ -118,12 +167,18 @@ const Work = () => {
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a href='https://cryptocurrency-website-k.netlify.app/' target="_blank" rel="noreferrer" >
+									<a
+										href='https://cryptocurrency-website-k.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>{" "}
-									<a href='https://github.com/KonradWcislo/cryptocurrency-search-engine' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/cryptocurrency-search-engine'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
@@ -140,12 +195,18 @@ const Work = () => {
 							<div className='opacity-0 group-hover:opacity-100'>
 								<span className='text-2xl font-bold tex-white tracking-wider'></span>
 								<div className='pt-8 text-center'>
-									<a href='https://timeerr.netlify.app/' target="_blank" rel="noreferrer">
+									<a
+										href='https://timeerr.netlify.app/'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Demo
 										</button>
 									</a>{" "}
-									<a href='https://github.com/KonradWcislo/Timer' target="_blank" rel="noreferrer">
+									<a
+										href='https://github.com/KonradWcislo/Timer'
+										target='_blank'
+										rel='noreferrer'>
 										<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 											Code
 										</button>
